@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,900;1,400&family=Didact+Gothic&family=Roboto+Flex:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200&family=Bodoni+Moda:ital,wght@0,900;1,400&family=Didact+Gothic&family=Roboto+Flex:wght@400;500&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+ 
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    /* background-color: #212529; */
+}
+:root{
+    --background-color:var(#876887)
+}
+/* utility */
+.container{
+   
+    overflow: hidden;
+
+}
+a{
+    font-family: work-sans, sans-serif;
+    font-size: 25px;
+    line-height: 24px;
+    color: #006251;
+   
+    
+}
+a:hover{
+     color:#212529;
+     
+}
+button{
+    background-color: 
+    #212529;
+    color: #212529;
+}
+/* header */
+.header-section{
+    /* /* width: 100%; */
+     /* height: 100%  */
+    background-color:#c3dbdd;
+    /* opacity: 52.9%; */
+    display:flex;
+    justify-content: space-around;
+
+   
+}
+
+.logo img{
+    width:270px;
+}
+
+.navbar-list{
+    flex-direction: row;
+    display: flex;
+    gap: 70px;
+    margin: 22px;
+}
+.navbar-list li{
+    list-style:none;
+    /* color: rgb(5, 25, 2); */
+}
+.navbar-list li a{
+    text-decoration:underline;
+ 
+    
+}
+/* Main -section */
+.section-home{
+    display:flex;
+    width:100%;
+    height:60%;
+    /* background-color: rgb(230, 47, 6); */
+}
+#left{
+    margin: 50px 70px;
+    width: 50%;
+    height: 80%;
+    /* background-color: green; */
+}
+.heading{
+    font-weight:600;
+     font-size: 25px;
+    padding:20px 40px;
+    line-height:20px;
+   
+}
+#first-para{
+    margin:30px 35px;
+  font-size:15px;
+  line-height: 20px;
+
+}
+#btn{
+    padding:15px 30px;
+    margin:18px 35px;
+    color: white;
+
+}
+#right{
+    margin: 50px 70px;
+    width:50%;
+     height:80%; 
+    /* background-color: rgb(4, 0, 128); */
+    background: url(./asset\ 1.jpeg);
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+   
+   
+    
+}
+/* Section-secont here styling */
+#section-second{
+     width: 100%;
+    height: 100%;
+    background-color: rgb(3, 63, 39);
+    align-items: center;
+    background: url(https://bharatintern.live/images/graphic-img1.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 40px 0px;
+
+}
+
+    
+    .second-heading{
+        text-align: center;
+        margin: 10px 0px;
+    }
+    .section-second-div{
+        display: flex;
+        margin: 0px 200px;
+        gap:30px;
+        width: 80%;
+        height: 70%;
+        /* background-color: #b2ece3; */
+        /* width: 400px; */
+        /* height:400px;
+         */
+         /* height: 60%; */
+         border-radius: 32px 32px 32px 32px;
+    }
+    
+    #sub-section-second {
+        background-color:#FAFAFA;
+        width: 100%;
+        height: 100%;
+        border-radius: 32px 32px 32px 32px;
+       
+
+    }
+    #sub-section-second:hover{
+       background-color:#D5DFDE;
+       
+    }
+    #sub-section-second img{
+    width: 80px;
+    height: 80px;
+}
+#sub-section-second p{
+    line-height: 40px;
+}
+#sub-section-second img,h2,p{
+    margin: 0px 40px;
+}
+/* Section third-here styling */
+#section-third{
+    display:flex;
+    width: 100%;
+    height:60%;
+    /* background-color: green; */
+}
+#section-third-left{
+    width: 50%;
+    height: 100%;
+    /* background-color: yellow; */
+    /* background:url(./asset\ 6.png); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+#section-third-left img{
+    width: 500px;
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    margin:0px 120px
+
+}
+
+#section-third-right{
+    width: 50%;
+    height:100%;
+    /* background-color: rgba(52, 43, 224, 0.808); */
+   
+}
+#section-third-right,h3,h4,p{
+    padding: 10px 15px;
+
+}
+h4{
+    font-size: 10px;
+    margin:20px 30px;
+    font-family: poppin;
+}
+h3{
+    font-size:20px;
+    
+
+}
+.section-third-para{
+    font-family: Roboto Comdensend;
+}
+/* Section-fourth styling here start */
+#section-fourth{
+    display: flex;
+    flex-direction: row-reverse;
+  
+    width: 100%;
+    height:70%;
+    /* background-color: rgb(226, 0, 0); */
+    margin: 50px 0px;
+}
+#section-fourth-left{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(235, 4, 235); */
+  
+}
+#section-fourth-left img{
+    
+    width: 550px;
+    height: 500px;
+    margin:30px 40px;
+}
+#section-fourth-right{
+    width: 50%;
+    height:100%;
+    /* background-color:rgb(18, 198, 2); */
+    
+} 
+
+.section-right-part{
+    margin: 40px 20px;
+    padding: 0px 20px;
+}
+/* .section-right-part h2{
+
+} */
+.section-right-part-two{
+    letter-spacing:15px;
+    line-height:2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.section-right-part-one{
+    font-size:15px;
+    font-family: monospace;
+    margin: 0px 32px;
+    color: hsl(171, 28%, 39%);
+}
+#btn:hover{
+    /* color: #095649; */
+    background-color: #095649;
+    border-radius: 5px 5px;
+    background-color: transparent;
+    color: #212529;
+   
+}
+#btn>:active{
+    filter: brightness(0.5%);
+}
+
+/* Footer section styling here.... */
+#footer-section-fifth{
+    display:flex;
+    justify-content:space-evenly;
+    width: 100%;
+    height: 50%;
+    background-color:#AED5D8;
+    
+}
+#footer-fifth{
+    margin:100px 0px;
+}
+i{
+    /* background-color: rgb(221, 221, 221); */
+    color: rgb(227, 5, 5);
+    
+
+}
+/* Follow us ka icon styling */
+#brand-section-icon{
+    margin: 20px 0px;
+    font-size: 40px;
+    padding: 20px;
+}
+/* Contact us ka styling here */
+#contact-section,i{
+    margin: 20px;
+    display: inline-block;
+    
+}
+/* copy-right-section styling here */
+#copy-right-section{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height:10%;
+    text-align:center;
+    cursor: pointer;
+    
+   
+    
+   
+   
+}
+#copy-right-section:hover{
+    background-color:#8FB0B3;
+    cursor: pointer;
+}
+
+
+
+
